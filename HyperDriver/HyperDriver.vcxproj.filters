@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Driver Files">
+      <UniqueIdentifier>{8E41214B-6785-4CFE-B992-037D68949A14}</UniqueIdentifier>
+      <Extensions>inf;inv;inx;mof;mc;</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Intel">
+      <UniqueIdentifier>{2af42c01-8adc-4999-a442-39033cbe94d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Intel\MSR">
+      <UniqueIdentifier>{d0855b54-6b6d-47ce-aa35-6497a7353100}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Intel\Helper">
+      <UniqueIdentifier>{59444d26-2251-4ef1-bd51-777e3a78ad54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Intel\Helper\ControlRegisters">
+      <UniqueIdentifier>{32042d91-e93a-46df-a4fd-06334c6fc604}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Intel\Helper\DebugRegisters">
+      <UniqueIdentifier>{8adddfa2-4630-49ef-ab9f-0a95446f3145}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="HyperDriver.inf">
+      <Filter>Driver Files</Filter>
+    </Inf>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\Intel\MSR\IA32_EFER_MSR.h">
+      <Filter>Header Files\Intel\MSR</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\MSR\IA32_FEATURE_CONTROL_MSR.h">
+      <Filter>Header Files\Intel\MSR</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\MSR\IA32_VMX_MISC_MSR.h">
+      <Filter>Header Files\Intel\MSR</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\MSR\IA32_VMX_BASIC_MSR.h">
+      <Filter>Header Files\Intel\MSR</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\MSR\IA32_VMX_PINBASED_CTL_MSR.h">
+      <Filter>Header Files\Intel\MSR</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\MSR\IA32_VMX_PRIMARY_PROCESSOR_BASED_CTL_MSR.h">
+      <Filter>Header Files\Intel\MSR</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\MSR\IA32_VMX_SECONDARY_PROCESSOR_BASED_CTL_MSR.h">
+      <Filter>Header Files\Intel\MSR</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\MSR\IA32_VMX_EXIT_CTL_MSR.h">
+      <Filter>Header Files\Intel\MSR</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\MSR\IA32_VMX_ENTRY_CTL_MSR.h">
+      <Filter>Header Files\Intel\MSR</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\Helper\ControlRegisters\CR0.h">
+      <Filter>Header Files\Intel\Helper\ControlRegisters</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\Helper\ControlRegisters\CR3.h">
+      <Filter>Header Files\Intel\Helper\ControlRegisters</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\Helper\ControlRegisters\CR4.h">
+      <Filter>Header Files\Intel\Helper\ControlRegisters</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\Helper\ControlRegisters\CR8.h">
+      <Filter>Header Files\Intel\Helper\ControlRegisters</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\Helper\DR.h">
+      <Filter>Header Files\Intel\Helper\DebugRegisters</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\Helper\cpuid.h">
+      <Filter>Header Files\Intel\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Intel\Helper\rflags.h">
+      <Filter>Header Files\Intel\Helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\driverentry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
